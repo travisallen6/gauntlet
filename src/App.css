@@ -1,0 +1,48 @@
+.right {
+  width:50vw;
+  height: 50vh;
+  background: navy;
+  color: white;
+  border: 3px solid navy;
+}
+
+.left {
+  background: white;
+  color: navy;
+  width: 50vw;
+  height: 50vh;
+  border: 3px solid navy;
+}
+
+.App {
+  display:flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.left-right {
+  display:flex;
+  font-size: 40px;
+  text-align:center;
+}
+
+.head {
+  height: 15vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-container {
+  display: flex;
+}
+
+.selected {
+  border: 3px solid yellow !important;
+}
+
+.timer-container {
+  font-size: 40px;
+  padding-top: 10px;
+}
